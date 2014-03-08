@@ -8,10 +8,6 @@ import static org.junit.Assert.*;
  * @author momamene, @date 3/8/14 3:03 PM
  */
 public class LibraryTest {
-    @Test public void testGetMeCabVERSION() {
-        Library classUnderTest = new Library();
-        assertEquals("0.996", classUnderTest.getMeCabVERSION());
-    }
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
